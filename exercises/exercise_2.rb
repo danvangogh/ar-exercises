@@ -10,5 +10,3 @@ puts "----------"
 @store3 = Store.find(3)
 
 @store3.update(mens_apparel: true, womens_apparel: false)
-
-puts @store3.inspect
