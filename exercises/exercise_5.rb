@@ -15,4 +15,5 @@ big_stores = Store.where("annual_revenue > ?", 1000000).size
 
 puts total_sum
 puts total_sum / store_count
+# puts Store.average(:annual_revenue)
 puts big_stores
